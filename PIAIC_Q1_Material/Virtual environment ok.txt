@@ -1,0 +1,21 @@
+go to your folder where you want to create virtual environment i-e  C:\Django\first
+python -m venv C:\Django\first\Venv      ---> to create virtual environment in the folder mentioned
+
+ go to newly created folder of virtual environment i-e cd Venv and run below command to activate new VE
+.\Scripts\activate                     -----> to activate the Virtual environment
+
+Now your current folder is C:\Django\first\Venv   so install django in this new environment by below command
+python -m pip install django           -----> install django in new virtual environment
+
+python -m django --version          ----> to check thr installed version of django
+
+                       time to create new Project of Django
+django-admin startproject  prj1 (prject name)..two folders( one with name itself and other file manage.py will be created.
+cd prj1
+puthon manage.py runserver    -----> your sever (127.0.0.1:8000) is now active and running on your local machine.an new file db.sqlite3 will be created 
+
+
+
+
+
+
